@@ -1,9 +1,10 @@
 [build]
-  command = "npm run build"
+  command = "NEXT_EXPORT=true npm run build"
   publish = "out"
 
 [build.environment]
   NODE_VERSION = "18"
+  NEXT_EXPORT = "true"
 
 # Redirects for client-side routing
 [[redirects]]

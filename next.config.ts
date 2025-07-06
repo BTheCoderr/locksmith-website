@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Only use static export for production builds
-  ...(process.env.NODE_ENV === 'production' && {
+  // Only use static export when NEXT_EXPORT is set (for Netlify builds)
+  ...(process.env.NEXT_EXPORT === 'true' && {
     output: 'export',
     trailingSlash: true,
     images: {

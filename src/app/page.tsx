@@ -12,19 +12,19 @@ export default function Home() {
       name: "Sarah Johnson",
       location: "Providence, RI",
       rating: 5,
-      text: "Locked out of my BMW at 2 AM. They arrived in 15 minutes and had me back in my car quickly. Professional and reasonably priced!"
+      text: "Locked out of my BMW and they helped me get back in quickly. Professional and reasonably priced!"
     },
     {
       name: "Mike Rodriguez",
       location: "Warwick, RI",
       rating: 5,
-      text: "Needed new locks for my office building. USA Locksmith Group did an amazing job. Highly recommend for commercial work!"
+      text: "Needed new locks for my office building. USA Locksmith Group did an amazing job. Highly recommend!"
     },
     {
       name: "Jennifer Chen",
       location: "Cranston, RI",
       rating: 5,
-      text: "Lost my Mercedes keys at the mall. They came out and made new keys on the spot. Saved my day!"
+      text: "Lost my Mercedes keys and they were able to help me out. Great service!"
     }
   ];
 
@@ -74,25 +74,25 @@ export default function Home() {
               <div className="space-y-4">
                 <h2 className="text-5xl md:text-7xl font-bold leading-tight">
                   <span className="block">Lost Keys?</span>
-                  <span className="block text-yellow-300">We&apos;ve Got You!</span>
+                  <span className="block text-yellow-300">We&apos;re Here to Help!</span>
                 </h2>
-                                  <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
-                    Rhode Island&apos;s #1 locksmith service. Professional, fast, and available 24/7/365.
-                  </p>
+                <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
+                  Professional locksmith services in Rhode Island. Residential, commercial, and automotive lock services.
+                </p>
               </div>
               
               <div className="flex flex-wrap gap-4">
                 <div className="bg-red-600 text-white px-6 py-3 rounded-full flex items-center font-semibold shadow-lg">
                   <Shield className="h-5 w-5 mr-2" />
-                  FULLY LICENSED & BONDED
+                  LICENSED & BONDED
                 </div>
                 <div className="bg-green-600 text-white px-6 py-3 rounded-full flex items-center font-semibold shadow-lg">
-                  <Clock className="h-5 w-5 mr-2" />
-                  24/7/365 SERVICE
+                  <Award className="h-5 w-5 mr-2" />
+                  CERTIFIED TECHNICIANS
                 </div>
                 <div className="bg-purple-600 text-white px-6 py-3 rounded-full flex items-center font-semibold shadow-lg">
                   <Zap className="h-5 w-5 mr-2" />
-                  15 MIN RESPONSE
+                  FAST & RELIABLE
                 </div>
               </div>
 
@@ -116,13 +116,13 @@ export default function Home() {
             
             <div className="space-y-6">
               <div className="bg-white/95 backdrop-blur-sm p-8 rounded-2xl shadow-2xl">
-                <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">Emergency Services</h3>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">Our Services</h3>
                 <div className="space-y-4">
                   <div className="flex items-center p-4 bg-blue-50 rounded-lg">
                     <HomeIcon className="h-6 w-6 text-blue-600 mr-4" />
                     <div>
                       <span className="font-semibold text-gray-900">Residential Lockouts</span>
-                      <p className="text-sm text-gray-600">Home, apartment, condo lockouts</p>
+                      <p className="text-sm text-gray-600">Home, apartment, condo services</p>
                     </div>
                   </div>
                   <div className="flex items-center p-4 bg-green-50 rounded-lg">
@@ -144,9 +144,9 @@ export default function Home() {
 
               <div className="bg-gradient-to-r from-yellow-400 to-orange-500 p-6 rounded-2xl shadow-xl text-center">
                 <div className="text-black">
-                  <h4 className="text-2xl font-bold mb-2">Average Response Time</h4>
-                  <div className="text-4xl font-bold">15 Minutes</div>
-                  <p className="text-lg font-semibold">or Less!</p>
+                  <h4 className="text-2xl font-bold mb-2">Professional Service</h4>
+                  <div className="text-2xl font-bold">Licensed & Bonded</div>
+                  <p className="text-lg font-semibold">Call for Details!</p>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Professional Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                             From emergency lockouts to complete security system installations, we&apos;re Rhode Island&apos;s trusted locksmith professionals.
+              From emergency lockouts to complete security installations, we&apos;re Rhode Island&apos;s trusted locksmith professionals.
             </p>
           </div>
           
@@ -175,7 +175,7 @@ export default function Home() {
                 <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-500 mr-2" />Key duplication</li>
                 <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-500 mr-2" />Lock installation</li>
                 <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-500 mr-2" />Security upgrades</li>
-                <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-500 mr-2" />Emergency repairs</li>
+                <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-500 mr-2" />Lock repairs</li>
               </ul>
             </div>
             
@@ -231,14 +231,14 @@ export default function Home() {
             ))}
           </div>
           
-                     <div className="text-center mt-12">
-             <p className="text-lg text-gray-600 mb-6">Don&apos;t see your vehicle? <strong>We service ALL makes and models!</strong></p>
-             <div className="flex justify-center space-x-8">
-               <a href="tel:401-780-5084" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                 Call for Your Vehicle
-               </a>
-             </div>
-           </div>
+          <div className="text-center mt-12">
+            <p className="text-lg text-gray-600 mb-6">Don&apos;t see your vehicle? <strong>We service ALL makes and models!</strong></p>
+            <div className="flex justify-center space-x-8">
+              <a href="tel:401-780-5084" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                Call for Your Vehicle
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -247,7 +247,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
-            <p className="text-xl text-gray-600">Over 1,000+ satisfied customers across Rhode Island</p>
+            <p className="text-xl text-gray-600">Professional locksmith services across Rhode Island</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -258,7 +258,7 @@ export default function Home() {
                     <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                                 <p className="text-gray-700 mb-6 italic">&quot;{testimonial.text}&quot;</p>
+                <p className="text-gray-700 mb-6 italic">&quot;{testimonial.text}&quot;</p>
                 <div className="border-t pt-4">
                   <p className="font-semibold text-gray-900">{testimonial.name}</p>
                   <p className="text-sm text-gray-600">{testimonial.location}</p>
@@ -290,18 +290,18 @@ export default function Home() {
             ))}
           </div>
           
-                     <div className="text-center mt-12">
-             <p className="text-lg text-gray-600 mb-4">Don&apos;t see your area? Give us a call!</p>
-             <p className="text-lg font-semibold text-blue-600">We may still be able to help you.</p>
-           </div>
+          <div className="text-center mt-12">
+            <p className="text-lg text-gray-600 mb-4">Don&apos;t see your area? Give us a call!</p>
+            <p className="text-lg font-semibold text-blue-600">We may still be able to help you.</p>
+          </div>
         </div>
       </section>
 
       {/* Final CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Back In?</h2>
-                     <p className="text-xl mb-8 text-blue-100">Don&apos;t wait in the cold or heat. Our professional locksmiths are standing by.</p>
+          <h2 className="text-4xl font-bold mb-6">Need Professional Locksmith Services?</h2>
+          <p className="text-xl mb-8 text-blue-100">Contact us for reliable, professional service you can trust.</p>
           
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mb-12">
             <a 
@@ -322,16 +322,6 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-              <Clock className="h-8 w-8 mx-auto mb-3 text-yellow-300" />
-              <h3 className="font-bold text-lg mb-2">24/7 Service</h3>
-              <p className="text-blue-100">Never closed</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-              <Zap className="h-8 w-8 mx-auto mb-3 text-yellow-300" />
-              <h3 className="font-bold text-lg mb-2">Fast Response</h3>
-              <p className="text-blue-100">15 min or less</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
               <Shield className="h-8 w-8 mx-auto mb-3 text-yellow-300" />
               <h3 className="font-bold text-lg mb-2">Licensed</h3>
               <p className="text-blue-100">Fully bonded</p>
@@ -340,6 +330,16 @@ export default function Home() {
               <Award className="h-8 w-8 mx-auto mb-3 text-yellow-300" />
               <h3 className="font-bold text-lg mb-2">Certified</h3>
               <p className="text-blue-100">All major brands</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+              <Zap className="h-8 w-8 mx-auto mb-3 text-yellow-300" />
+              <h3 className="font-bold text-lg mb-2">Professional</h3>
+              <p className="text-blue-100">Quality service</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+              <Clock className="h-8 w-8 mx-auto mb-3 text-yellow-300" />
+              <h3 className="font-bold text-lg mb-2">Reliable</h3>
+              <p className="text-blue-100">Call for hours</p>
             </div>
           </div>
         </div>
@@ -356,16 +356,16 @@ export default function Home() {
                 </div>
                 <span className="text-xl font-bold">USA LOCKSMITH GROUP</span>
               </div>
-                             <p className="text-gray-400 mb-4">Rhode Island&apos;s premier locksmith service. Licensed, bonded, and available 24/7.</p>
+              <p className="text-gray-400 mb-4">Rhode Island&apos;s trusted locksmith service. Licensed, bonded, and professional.</p>
               <div className="flex space-x-4">
                 <div className="bg-blue-600 p-2 rounded-lg">
                   <Shield className="h-4 w-4 text-white" />
                 </div>
                 <div className="bg-green-600 p-2 rounded-lg">
-                  <Clock className="h-4 w-4 text-white" />
+                  <Award className="h-4 w-4 text-white" />
                 </div>
                 <div className="bg-purple-600 p-2 rounded-lg">
-                  <Award className="h-4 w-4 text-white" />
+                  <Zap className="h-4 w-4 text-white" />
                 </div>
               </div>
             </div>
@@ -394,7 +394,7 @@ export default function Home() {
                 </p>
                 <p className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2" />
-                  Serving All of Rhode Island
+                  Serving Rhode Island
                 </p>
               </div>
             </div>
